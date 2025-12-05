@@ -1,0 +1,29 @@
+Class Tank {
+    Attributes {
+        weight: mass
+        height: int
+        rounds: Ammo
+        position: position2
+    }
+
+    Fragment Barrel {
+        Attributes {
+            length: int
+            diameter: int
+        }
+    }
+
+    Attachments {
+        Flow: Controls.hfl
+        Flow: Targets.hfl
+        Flow: Physics.hfl
+    }
+}
+
+Class Ammo {
+    Attributes {
+        speed: velocity2
+        position: position2
+        weight: mass
+    }
+}

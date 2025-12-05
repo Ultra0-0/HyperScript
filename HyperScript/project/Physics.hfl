@@ -1,0 +1,22 @@
+function calculateLanding(Ammo ammo)
+    let pos = ammo.
+    let gravity = 10
+    let vX = ammo.speed.x
+    let vY = ammo.speed.y
+    let time = time(vY, gravity, ammo)
+    landing = vX * time
+    return landing
+end
+
+function time(int v, int g, position pos)
+    vel = v
+    positionY = pos
+    seconds = 0
+    while (pos > 0) do
+        pos += v
+        vel -= g
+        seconds++
+    end
+    return seconds
+end
+

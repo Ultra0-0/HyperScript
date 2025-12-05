@@ -1,0 +1,12 @@
+let a = 10
+print a
+
+print winCondition(42, 84)
+
+function winCondition(input1, input2)
+    let answer = 42
+    if (42 == answer and input2/2 == answer and not (input2 == 42)) then
+        return "Passed the test"
+    end
+    return "Failed the test"
+end

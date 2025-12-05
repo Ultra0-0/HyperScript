@@ -1,0 +1,15 @@
+//In Physics.hbp
+Sector Physics {
+    component vector2{crunch(x: int, y: int)}
+    component angle {
+        value: double
+        properties {
+            value <= 360
+            value >= 0
+        }
+    }
+    role velocity is int
+    role mass is int
+    role velocity2 is vector2
+    role position2 is vector2
+}

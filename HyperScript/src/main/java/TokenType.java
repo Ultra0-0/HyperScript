@@ -1,0 +1,31 @@
+public enum TokenType {
+    // --- Single-character tokens ---
+    LEFT_PAREN, RIGHT_PAREN,
+    LEFT_BRACE, RIGHT_BRACE, COLON,
+    COMMA, DOT, MINUS, PLUS, SEMICOLON, SLASH, STAR,
+
+    // --- One or two character tokens ---
+    BANG, BANG_EQUAL,
+    EQUAL, EQUAL_EQUAL,
+    GREATER, GREATER_EQUAL,
+    LESS, LESS_EQUAL,
+
+    // NEW OPERATORS
+    DOT_DOT, // ..
+    CARET,   // ^
+
+    // BLOCK KEYWORDS
+    THEN, DO, END, PERCENT, EOL,
+    // --- BLUEPRINT KEYWORDS ---
+    CLASS, COMPONENT, ATTRIBUTES, ROLE, CRUNCH, EMBED, ATTACHMENTS, EVENTS,
+    FRAGMENT, SECTOR, PROPERTIES, FLOW, IS, MANIFEST, BLUEPRINT,
+
+    // --- Literals ---
+    IDENTIFIER, STRING, NUMBER, TYPE,
+
+    // --- Keywords ---
+    AND, ELSE, FALSE, FUN, FOR, IF, NULL, OR,
+    PRINT, RETURN, SUPER, THIS, TRUE, VAR, WHILE, FUNCTION, HFL, HMS, HBP,
+
+    EOF
+}
